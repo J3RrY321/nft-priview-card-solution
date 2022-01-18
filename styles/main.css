@@ -9,6 +9,10 @@
     padding: 0;
 }
 
+body {
+    max-width: 1440px;
+}
+
 a:hover {
     color: hsl(178, 100%, 50%);
 }
