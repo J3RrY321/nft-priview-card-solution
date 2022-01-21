@@ -9,7 +9,6 @@
     padding: 0;
 }
 
-
 a:hover {
     color: hsl(178, 100%, 50%);
 }
@@ -30,10 +29,10 @@ a:hover {
     justify-content: center;
     align-items: center;
     background-color: hsl(217, 54%, 11%);
-    width: 100vw;
-    height: 100vh;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+	height: 100vh;
+	width: 100vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -43,7 +42,8 @@ a:hover {
     background-color: hsl(216, 50%, 16%);
     border-radius: 1rem;
     box-shadow: 0 0.25rem 0.5rem hsla(0, 0%, 0%, 0.25);
-    padding: 1.7rem;
+    padding: 1.5rem;
+    padding-bottom: 1.7rem;
 }
 
 .img__container {
@@ -52,14 +52,14 @@ a:hover {
 }
 
 .img__link {
-    position: relative;
-    display: block;
-    overflow: hidden;
+	position: relative;
+	display: block;
+	overflow: hidden;
 }
 
 #equilibrium {
     width: 100%;
-    height: 100%;
+	height: 100%;
     border-radius: 0.7rem;
 }
 
@@ -87,30 +87,35 @@ a:hover {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
     font-weight: initial;
-    text-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.5);   
+    text-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.5); 
+    transition: all 0.3s ease-out;  
+}
+
+.header:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 .header__link {
     font-size: 1.5rem;
     color: hsl(0, 0%, 100%);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
     font-weight: initial;
     text-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.5);
     text-decoration: none; 
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;  
 }
 
 .card__text {
-    font-size: 16px;
-    color: hsl(215, 51%, 70%);
+	font-size: 16px;
+	color: hsl(215, 51%, 70%);
     font-weight: lighter;
     text-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.5);
 }
 
 .offer {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 #ether {
@@ -125,8 +130,8 @@ a:hover {
 }
 
 .price {
-    color: hsl(178, 100%, 50%);
-    margin-top: 1rem;
+	color: hsl(178, 100%, 50%);
+	margin-top: 1rem;
     text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
 }
 
@@ -140,8 +145,8 @@ a:hover {
 }
 
 .time-left {
-    color: hsl(215, 51%, 70%);
-    margin-top: 1rem;
+	color: hsl(215, 51%, 70%);
+	margin-top: 1rem;
     text-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.5);
 }
 
@@ -178,4 +183,7 @@ a:hover {
     text-decoration: none;
     transition: all 0.3s ease-out;
 }
+
+.creator__name:hover {
+    color: hsl(178, 100%, 50%);
 }
