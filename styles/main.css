@@ -43,7 +43,7 @@ a:hover {
     border-radius: 1rem;
     box-shadow: 0 0.25rem 0.5rem hsla(0, 0%, 0%, 0.25);
     padding: 1.5rem;
-    padding-bottom: 1.7rem;
+    padding-bottom: 2rem;
 }
 
 .img__container {
@@ -84,8 +84,8 @@ a:hover {
 .header {
     font-size: 1.5rem;
     color: hsl(0, 0%, 100%);
-	margin-top: 1rem;
-	margin-bottom: 1rem;
+	margin-top: 1.3rem;
+	margin-bottom: 1.3rem;
     font-weight: initial;
     text-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.5); 
     transition: all 0.3s ease-out;  
@@ -131,7 +131,7 @@ a:hover {
 
 .price {
 	color: hsl(178, 100%, 50%);
-	margin-top: 1rem;
+	margin-top: 1.3rem;
     text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
 }
 
